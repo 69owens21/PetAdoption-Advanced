@@ -28,12 +28,13 @@ if (!isset($_SESSION['logged_in_user'])) {
 <p>What would you like to do today?</p>
 
 <div class="menu-box">
+    <a href="admin_add_pet.php" class="button" style="background-color: #343a40;">Admin: Add New Pet</a>
+    <a href="view_stats.php" class="button" style="background-color: #343a40;">Admin: View Shelter Statistics</a>
     <a href="view_pets.php" class="button"> View Available Pets</a>
     <a href="search_pets.php" class="button"> Search Pets by Breed</a>
     <a href="adopt_pet.php" class="button"> Adopt a Pet</a>
     <a href="account_settings.php" class="button"> Account Settings</a>
     <a href="view_history.php" class="button"> View Your Adoption History</a>
-    <a href="view_stats.php" class="button"> View Shelter Statistics</a>
     <a href="logout.php" class="button logout"> Log Out</a>
 </div>
 
